@@ -1,0 +1,12 @@
+{
+  "name": "Ephemeral Key Provider",
+  "description": "Just an easy tool for testing Ephemeral Key providers.  Not for use in production, just an easy tool to develop mobile apps against.",
+  "repository": "https://github.com/anelder-stripe/ephemeral-provider-service",
+  "keywords": ["flask", "python", "stripe"],
+  "env": {
+    "STRIPE_SECRET_TEST_KEY": {
+      "description": "Find this at https://dashboard.stripe.com/account/apikeys (it'll look like sk_test_****)",
+      "required": true
+    }
+  }
+}
